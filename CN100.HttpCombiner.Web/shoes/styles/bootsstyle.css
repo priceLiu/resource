@@ -1,0 +1,38 @@
+.newbootsbox{ height:2370px; width:100%; background:#e5e5e5 url(../Images/probg.png) repeat-x;}
+.newboots{ width:1053px; margin:auto; height:2370px; position:relative;}
+.newboots a{ display:block; position:absolute;overflow:hidden;}
+.newboots .pro{width:160px; height:160px;}
+.newboots .proimg1{ top:10px;}
+.newboots .proimg2{ top:10px; left:170px;}
+.newboots .proimg3,.newboots .proimg9,.newboots .proimg17,.newboots .proimg24{width:544px; height:330px;}
+.newboots .proimg3{  top:10px; left:340px;}
+.newboots .proimg4{ top:10px; right:0px}
+.newboots .proimg5{ top:180px; }
+.newboots .proimg6{ top:180px; left:170px}
+.newboots .proimg7{ top:180px; right:0px}
+.newboots .proimg8{ top:350px; }
+.newboots .proimg9{top:350px; left:170px}
+.newboots .proimg10{ top:350px; right:170px;}
+.newboots .proimg11{ top:350px; right:0px;}
+.newboots .proimg12{ top:520px; }
+.newboots .proimg13{top:520px; right:170px}
+.newboots .proimg14{top:520px; right:0px;}
+.newboots .proimg15{top:690px;}
+.newboots .proimg16{top:690px; left:170px;}
+.newboots .proimg17{top:690px; left:340px;}
+.newboots .proimg18{top:690px; right:0}
+.newboots .proimg19{ top:860px;}
+.newboots .proimg20{ top:860px; left:170px; }
+.newboots .proimg21{top:860px; right:0px;}
+.newboots .proimg22{ top:1030px; right:0px; width:330px; height:330px;}
+.newboots .proimg23{ top:1030px;}
+.newboots .proimg24{top:1030px; left:170px;}
+.newboots .proimg25{top:1200px;}
+.newboots .proimg26,.newboots .proimg28,.newboots .proimg30{ width:545px; height:320px;}
+.newboots .proimg27,.newboots .proimg29,.newboots .proimg31{ width:498px; height:320px;}
+.newboots .proimg26{top:1370px;}
+.newboots .proimg27{top:1370px; right:0px;}
+.newboots .proimg28{top:1700px;}
+.newboots .proimg29{top:1700px; right:0px;}
+.newboots .proimg30{top:2030px;}
+.newboots .proimg31{top:2030px; right:0px;}

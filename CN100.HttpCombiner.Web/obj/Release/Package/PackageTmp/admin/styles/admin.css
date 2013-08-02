@@ -1,0 +1,36 @@
+﻿/****全局设置****/
+body,h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,a{margin: 0;padding: 0;}
+body{font: normal 12px/1.5 "宋体";color: #333;}
+i,em{font-style: normal;}
+h3{font-size: 16px;}
+h4{font-size: 14px;}
+h5,h6{font-size: 12px;}
+a{color:#005ea6;text-decoration: none;}
+a:hover{color:#005ea6; text-decoration: underline;}
+ul,dl{list-style: none;}
+/****背景统一加载****/
+.leftMenu li .curent{background: url();}
+/****容器****/
+.container{min-width: 960px; }
+/****头部****/
+.header{ height: 88px;border-top: 1px solid #b5b5b6;border-bottom: 1px solid #b5b5b6;background: #b9002a;}
+/*logo区*/
+.logoTitle{float: left;}
+.logoTitle h1,.logoTitle h3{float: left;}
+.logoTitle h3{margin: 56px 0 0 6px; color: #fff;}
+/*用户信息及退出*/
+.welLogin{float: right;margin: 64px 20px 0 0; font-size: 12px; color: #fff;}
+.welLogin b{ margin: 0 3px; font-family: Tahoma;}
+.welLogin a{color: #fff; margin-left: 14px;}
+/****中间****/
+.content{ padding: 10px 6px;}
+/*左边*/
+.left{ float: left; width: 86px; min-height: 500px;margin-right: -100px;  border: 2px solid #ffe0c1;background: #fff8e3; border-radius: 5px;}
+.leftTitle{display: block;height: 28px; border-bottom: 2px solid #b9002a; font-size: 14px; line-height: 28px;text-align: center; color: #b9002a;  }
+.leftMenu{overflow: hidden;}
+.leftMenu li{display: block;  margin-top: -1px;padding: 3px 0; border-top: 1px solid #ffe0c1;border-bottom: 1px solid #fff; }
+.leftMenu li a{display: block; width: 90px; height: 26px; margin-left: -1px;line-height: 26px;text-align: center;color: #333;}
+.leftMenu li a:hover{background:rgba(185,0,42,.2);background:#b9002a\9;filter:alpha(opacity=20);color: #b9002a;}
+.leftMenu li .curent{width: 94px; }
+/*右边*/
+.right{min-height: 500px;margin-left: 100px; border: 1px solid #b5b5b6;border-radius: 7px;}

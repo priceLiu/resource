@@ -1,0 +1,12 @@
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Common\bin\Debug\CN100.HttpCombiner.Common.dll
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Common\bin\Debug\CN100.HttpCombiner.Common.pdb
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Common\bin\Debug\CN100.HttpCombiner.Model.dll
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Common\bin\Debug\CN100.Public.Common.dll
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Common\bin\Debug\CN100.HttpCombiner.Enum.dll
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Common\bin\Debug\AjaxMin.dll
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Common\bin\Debug\CN100.HttpCombiner.Model.pdb
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Common\bin\Debug\CN100.Public.Common.pdb
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Common\bin\Debug\CN100.HttpCombiner.Enum.pdb
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Common\obj\Debug\CN100.HttpCombiner.Common.csprojResolveAssemblyReference.cache
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Common\obj\Debug\CN100.HttpCombiner.Common.dll
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Common\obj\Debug\CN100.HttpCombiner.Common.pdb

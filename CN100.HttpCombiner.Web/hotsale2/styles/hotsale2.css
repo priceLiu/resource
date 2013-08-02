@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* -----------------热卖频道:20130702------------- */
+.hs2_cf:before, .hs2_cf:after { content:""; display:table; }
+.hs2_cf:after { clear:both; }
+.hs2_cf { zoom:1; }
+.hs2_subLogo { width:84px; height:29px; position:absolute; margin:-30px 0 0 218px; overflow:hidden; }
+.hs2_content { background-color:#f3f3f3; }
+.hs2_wrapper { width:1170px; margin:0 auto; padding-top:10px; }
+
+/*广告条*/
+.hs2_accordion { width:1170px; height:134px; margin-bottom:10px; }
+.hs2_accordion dt, .hs2_accordion dd { float:left; height:134px; overflow:hidden; }
+.hs2_accordion dt { width:91px; cursor:pointer; margin-left:1px; }
+.hs2_accordion dd { width:0; }
+.hs2_accordion img { border:none; display:block; }
+
+/*搜索*/
+.hs2_search { height:42px; line-height:40px; padding:0 15px; background:url(http://resource1.cn100.com/hotsale2/images/hs2_search_bg.png) no-repeat; margin-bottom:15px; }
+.hs2_search strong { background-color:#c80521; color:#fff; padding:7px 10px; margin-right:12px; }
+.hs2_search a { padding:0 10px; color:#737373; }
+.hs2_search a:hover { color:#c80521; }
+
+/*产品*/
+.hs2_subProduct_info { width:1170px; }
+.hs2_subProduct_left { float:left; width:458px; height:497px; }
+.hs2_subProduct_right { float:right; width:710px; overflow:hidden; *padding-bottom:15px; }
+.hs2_subProduct_right ul { width:730px; }
+.hs2_subProduct_right li { float:left; width:210px; height:230px; padding:5px; border:1px solid #eeecec; background-color:#fff; margin:0 0 15px 15px; display:inline; }
+.hs2_subProduct_right a { width:210px; height:230px; display:block; position:relative; }
+.hs2_subProduct_mask { background-color:#333; filter:alpha(opacity:60); opacity:0.6; z-index:1; }
+.hs2_subProduct_mask, .hs2_subProduct_txt { width:100%; height:36px; display:block; position:absolute; left: 0; bottom: 0; cursor:pointer; }
+.hs2_subProduct_txt { z-index:2; }
+.hs2_subProduct_txt em { float:left; width:110px; height: 28px; overflow: hidden; display:block; color:#eee; line-height:14px; padding:4px 0 0 7px; }
+.hs2_subProduct_txt strong { float:right; width:88px; height: 24px; color:#cf1f23; font-size:16px; padding:8px 4px 0 0; font-family:arial,verdana,sans-serif; text-align: right; overflow: hidden;text-shadow: -1px 0 0 #000;}
+.hs2_subProduct_txt b { font-size:20px; }
+
+.hs2_product { width:1170px; }
+.hs2_product ul { width:1190px; *padding-bottom:15px; }
+.hs2_product li { float:left; width:210px; height:260px; padding:5px; border:1px solid #eeecec; background-color:#fff; margin:0 15px 15px 0; display:inline; }
+.hs2_product li img { vertical-align:top; margin-bottom:5px; }
+.hs2_product_txt { height:50px; line-height:20px; }
+.hs2_product_txt a { color:#555; }
+.hs2_product_txt a:hover { color:#444; }
+.hs2_product_txt b { color:#cf1f23; margin-left:3px; }
+.hs2_product_price { height:50px; display:none;font-family:arial;}
+.hs2_product_price strong { float:left; width:130px; font-size:14px;  color:#555; padding-top:8px; }
+.hs2_product_price span { font-size:24px; color:#cf1f23; font-style:italic; }
+.hs2_product_price i{font-size: 14px;font-style:italic; font-weight: bold;}
+.hs2_product_price del { float:right; width:80px; color:#555; padding-top:10px; text-align: right; }
+.hs2_product li.hs2_product_active { border:1px solid #c80521; }
+.hs2_product li.hs2_product_active .hs2_product_txt { display:none; }
+.hs2_product li.hs2_product_active .hs2_product_price { display:block; }
+
+/*分页*/
+.hs2_page { width:100%; height:50px; }
+.hs2_page_info { float:right; }
+.hs2_page a, .hs2_page span { float:left; }
+.hs2_page a, .hs2_page_cur { width:24px; height:24px; text-align:center; line-height:24px; font-size:14px; margin:0 2px; display:block; border:1px solid #ddd; background-color:#fff; }
+.hs2_page_cur { background-color:#b9002a; color:#fff; font-weight:bold; }
+.hs2_page .hs2_prev, .hs2_page .hs2_next { width:26px; height:26px; border:0; text-indent:100%; white-space:nowrap; overflow:hidden; }
+.hs2_page_count { margin:1px 10px 0 30px; display:inline; }
+.hs2_page_click input { vertical-align:middle; }
+.hs2_page_txt { width:32px; height:18px; padding:2px; text-align:center; border:1px solid #bfbfbf; background-color:#fff; color:#777; }
+.hs2_page_btn { width:45px; height:26px; display:block; border:0; color:#777; cursor:pointer; margin-right:-5px; }
+
+/*小图标*/
+.hs2_icon_dis, .hs2_prev, .hs2_next, .hs2_page_btn, .hs2_subLogo { display:inline-block; *display:inline; *zoom:1; vertical-align:middle; background-image:url(http://resource1.cn100.com/hotsale2/images/hs2_sprite.png); }
+.hs2_icon_dis { width:16px; height:16px; margin-right:2px; }
+.hs2_prev { background-position:0 -16px; }
+.hs2_next { background-position:-26px -16px; }
+.hs2_page_btn { background-position:-52px -16px; }
+.hs2_subLogo { background-position:0 -42px; }

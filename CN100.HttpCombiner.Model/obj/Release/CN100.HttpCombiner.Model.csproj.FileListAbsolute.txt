@@ -1,0 +1,7 @@
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Model\bin\Release\CN100.HttpCombiner.Model.dll
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Model\bin\Release\CN100.HttpCombiner.Model.pdb
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Model\bin\Release\CN100.HttpCombiner.Enum.dll
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Model\bin\Release\CN100.HttpCombiner.Enum.pdb
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Model\obj\Release\CN100.HttpCombiner.Model.csprojResolveAssemblyReference.cache
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Model\obj\Release\CN100.HttpCombiner.Model.dll
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Model\obj\Release\CN100.HttpCombiner.Model.pdb

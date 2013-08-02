@@ -1,0 +1,4 @@
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Enum\bin\Release\CN100.HttpCombiner.Enum.dll
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Enum\bin\Release\CN100.HttpCombiner.Enum.pdb
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Enum\obj\Release\CN100.HttpCombiner.Enum.dll
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Enum\obj\Release\CN100.HttpCombiner.Enum.pdb

@@ -1,0 +1,5 @@
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Enum\bin\Debug\CN100.HttpCombiner.Enum.dll
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Enum\bin\Debug\CN100.HttpCombiner.Enum.pdb
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Enum\obj\Debug\CN100.HttpCombiner.Enum.csprojResolveAssemblyReference.cache
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Enum\obj\Debug\CN100.HttpCombiner.Enum.dll
+E:\svn release\Resource\Resource\trunk\CN100.HttpCombiner.Enum\obj\Debug\CN100.HttpCombiner.Enum.pdb

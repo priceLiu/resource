@@ -1,0 +1,128 @@
+﻿
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0px; padding:0px; }
+img{ border:none; }
+ul{ list-style:none; }
+
+/*布局*/
+body{ background:#fafafa; }
+.pay_wrap{ width:950px; margin:0 auto; position:relative; }
+.pay_layout-2 .ico,.logo,#a_detail em.up,#a_detail em.down,.pay_zfb,.pay_choose .pay_kq,.pay_choose .pay_tenpay{ background:url(http://resource1.cn100.com/pay/images/pay_cssSprite.jpg) no-repeat; }
+/*头部*/
+.pay_layout-1{ height:70px; padding-top:20px; }
+.pay_layout-1 a.logo{ display:block; float:left; width:240px; height:51px; background-position:0 0; }
+.pay_layout-2{ margin-bottom:70px; }
+.pay_center_main{ margin:0 auto; width:946px; border:2px solid #dcdddd; }
+.pay_tit_pay{ border-bottom:1px dotted #eee; color: #4D4D4D; font-size: 14px; height: 31px; line-height: 31px; padding-left: 20px; background-color:#fff9ec}
+.pay_div_contain{ padding:20px 0px 20px 50px; color:#4C4C4C; }
+.pay_div_contain table{ width: 850px; }
+.pay_ui-line { border-bottom: 1px dotted #CFD2D7; height: 1px; overflow: hidden; }
+.pay-userinfo{ position:relative; float:right; top:20px; }
+.pay-userinfo a:link,.pay-userinfo a:visited{ color:#b9002a; text-decoration:none; font-size:12px; font-weight:bold; }
+.pay-userinfo a:hover{ text-decoration:underline; }
+.pay_layout-2 h3{ position:absolute; height:28px; line-height:28px; background:#fff5d0; border:1px solid #ffe0c1; font-size:14px; padding-left:5px; color:#4D4F4C; width:944px; z-index:100; }
+.pay_layout-2 h3 em.ico{ display:inline-block; width:27px; height:28px; background-position:-289px -35px; padding-right:5px; vertical-align:middle; }
+.pay_layout-2 h3 a{ display:block; float:left; text-decoration:none; color:#333; width:80px; height:27px; font:normal 12px/27px "宋体"; margin-left:10px; _position:relative; _top:7px; }
+#a_detail em{ display:inline-block; width:12px; height:12px; }
+#a_detail em.up{ background-position:-306px -18px; }
+#a_detail em.down{ background-position:-290px -18px; }
+.pay_ui-lay-sele{ font-size:12px; font-weight: normal; margin-left: 20px; width:190px; float:left; }
+.pay_detail{ position:absolute; height:27px; *width:260px; bottom:0px; right:10px; overflow:hidden; }
+
+.pay_layout-2 h3 strong{ float:left; font:bold 24px/27px Arial; color:#ea5245; }
+.pay_layout-2 h3 strong em{ font:bold 12px/27px verdana; padding-right:5px; color:#666; vertical-align:baseline; } 
+.pay_layout-2 h3 strong span{ font:normal 12px/27px "宋体"; color:#333; vertical-align: middle; }
+
+.pay_ui-lay-span2{ font-size:14px; font-weight:160; float: right; margin: 3px 10px 0 0; }
+.pay_ui-pay-contain{ margin-bottom:20px; }
+
+.pay_table-td-img{ width:180px; margin-left:10px; }
+.pay_pay_bt{ margin:10px 100px; }
+.pay_pay_bt a{ display:block; margin:10px auto; width:123px; height:32px; background:url(http://resource1.cn100.com/pay/images/pay_cssSprite.jpg) no-repeat 0 -185px; }
+.pay_center_floor{ margin-top:30px; padding:30px; border-top:1px solid #F2F2F2; }
+.pay_center_floor ul{ margin-top:20px; margin-left:20px; color:#4D4D4D; }
+.pay_center_floor ul li{ margin-top:12px; }
+.pay_center_floor ul p{ font-size:12px; padding-top:5px; }
+.pay_pay-floor-p{ font-size:12px; padding-top:16px; }
+.pay_pay-floor-p a:link,.pay_pay-floor-p a:visited{ text-decoration:none; color:#0095CD; }
+.pay_pay-floor-p a:hover{ text-decoration:underline; }
+.pay_table-td-zf{ font-size:14px; padding-top:7px; }
+.pay_width80{ width:80px; }
+.pay_table-td-pay input{ height:40px; line-height:40px; }
+.pay_table-td-pay{ border-bottom: 1px dotted #999999; }
+.pay_textIndent{ text-indent: -999px; +padding-bottom:60px}
+.pay_ui-kt{ text-decoration:none; color:#009AD0; }
+
+
+
+.pay_ui-pay-hover p { color: #4D4C48; font-size: 12px; }
+
+.pay_ui-pay-hovermain{ width:910px; word-break: keep-all; word-wrap: break-word; }
+.pay_ui-pay-hover{ display:none; float:left; padding:10px 20px; width:910px; font:normal 12px/18px "宋体"; color:#4D4C48; }
+.pay_table-tit td{ font-weight:bold; }
+
+.pay_ui-pay-hover td div{ width:140px; text-overflow:ellipsis; overflow:hidden; white-space:nowrap; }
+
+/* 20120521 */
+.pay_layout-2 h3 b{ display: block; float: left; height: 28px; overflow: hidden; max-width:500px; }
+
+.pay_bank-list
+{ float:left; overflow:hidden; margin-top:5px; +padding-bottom:20px; }
+.pay_bank-list li{ float:left; width:255px; margin-bottom:20px; }
+.pay_bank-list li input{ float:left; margin-top:7px; }
+
+.pay_bank-list .pay_zfb,.pay_bank-list .pay_kq,.pay_bank-list .pay_tenpay,.pay_bank-list .pay_upop{ display:block; float:left; margin:7px 0 0 7px; width:128px; height:38px; background:url(http://resource1.cn100.com/pay/images/pay_cssSprite.jpg) no-repeat 0 -74px; }
+.pay_bank-list .pay_kq{ background-position:0 -123px; }
+.pay_bank-list .pay_tenpay{ background-position:0 -230px; }
+.pay_bank-list .pay_upop{ background-position:0 -330px; }
+
+.pay_icon-info{ background-color: #D2EEF7; border-style: solid solid solid none; border-width: 1px 1px 1px medium; font-weight: normal; height: 30px; line-height: 15px; padding: 0 3px; top: -1px; font: 12px/1.5 tahoma,arial,宋体; }
+.pay_icon{ background-image: url(http://resource1.cn100.com/pay/images/pay_bankIcon.jpg); display:inline-block; height: 30px; width:155px; background-repeat: no-repeat; vertical-align:middle; margin-left:8px; }
+
+.pay_ICBC{ background-position: 0 -8px; }
+.pay_CMB { background-position: 0 -49px; }
+.pay_CCB{ background-position: 0 -288px; }
+.pay_BOC{ background-position: 0 -487px; }
+.pay_ABC{ background-position: 0 -448px; }
+.pay_COMM{ background-position: 0 -570px; }
+.pay_PSBC { background-position: 0 -369px; }
+.pay_CEB { background-position: 0 -408px; }
+.pay_SPDB { background-position: 0 -329px; }
+.pay_GDB { background-position: 0 -247px; }
+.pay_CITIC { background-position: 0 -168px; }
+.pay_CIB { background-position: 0 -608px; }
+.pay_SDB { background-position: 0 -208px; }
+.pay_CMBC { background-position: 0 -90px; }
+.pay_HZCB { background-position: 0 -728px; }
+.pay_SHBANK { background-position: 0 -809px; }
+.pay_BJRCB { background-position: 0 -2640px; }
+.pay_SPABANK { background-position: 0 -1861px; }
+.pay_FDB { background-position: 0 -1291px; }
+.pay_NBBANK { background-position: 0 -1209px; }
+.pay_BJBANK { background-position: 0 -3246px; }
+.pay_WZCB { background-position: 0 -1698px; }
+.pay_upop{ background-position: 0 -3847px; }
+.pay_ICBCBTB,.pay_CCBBTB,.pay_ABCBTB,.pay_SPDBBTB{ background:url(http://resource1.cn100.com/pay/images/pay_cssSprite.jpg) no-repeat; }
+.pay_ICBCBTB{ background-position: -152px -74px; }
+.pay_CCBBTB{ background-position: -152px -178px; }
+.pay_ABCBTB{ background-position: -152px -122px; }
+.pay_SPDBBTB{ background-position: -152px -234px; }
+.pay_arrow{ float:left; display:block; width:8px; height:15px; background:url(http://resource1.cn100.com/pay/images/pay_cssSprite.jpg) no-repeat -307px 0; margin-top:7px; }
+.pay_center_floor h5{ font-size:12px; }
+
+.pay_layout-2 .h3show{ top:100px; min-height:190px; z-index:100px; }
+
+.pay_div_contain .pay_choose{ border-bottom:1px solid #aaa; margin: 0 40px 40px 0; }
+.pay_div_contain .pay_choose li{ position:relative; padding:20px 10px; height:30px; border-bottom:1px dotted #aaa; }
+
+.pay_choose .pay_zfb,.pay_choose .pay_kq,.pay_choose .pay_tenpay{ display:inline-block; margin-left:15px; width:128px; height:38px; vertical-align:middle; }
+.pay_div_contain .pay_choose .pay_tenpay{ background-position:0 -230px; }
+.pay_div_contain .pay_choose .pay_kq{ background-position:0 -123px; }
+.pay_div_contain .pay_choose .pay_zfb{ background-position:0 -74px; }
+.pay_div_contain .pay_choose input{ vertical-align:middle; }
+
+
+.pay_div_contain  .pay_selected{ border:2px solid #ffe0c1 !important; background-color:#fff9ec; }
+.pay_div_contain .pay_choose li.pay_otherpay{ display:block; margin:20px 0; padding:0; width:160px; height:40px; border:1px dotted #4D9EC1; border-radius:5px; text-align:center; font:normal 12px/40px "宋体"; }

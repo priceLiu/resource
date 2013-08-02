@@ -1,0 +1,44 @@
+.bi_box{background-color:#e1e1e1;padding:20px 0 40px 0;}
+.bi_con{width:1000px; margin:0 auto;position:relative;}
+
+.bi_floor1{height:410px;}
+.bi_floor2,.bi_floor4,.bi_floor6{height:210px;}
+.bi_floor3,.bi_floor5,.bi_floor7{height:420px;}
+.img_01,.img_02,.img_03,.img_04,.img_05,.img_06,.img_07,.img_08,.img_09,.img_10,.img_11,.img_12,.img_13,.img_14,.img_15,.img_16,.img_17,.img_18,.img_19,.img_20,.img_21,.img_22,.img_23,.img_24,.img_25,.img_26,.img_27,.img_28,.img_29,.img_30,.img_31,.img_32,.img_33,.img_34,.img_35,.img_36{position: absolute;display:block; padding:10px; background-color:#fff;}
+.img_01{ left:0; top:0;}
+.img_02{ left:0; top:210px;}
+.img_03{ left:202px; top:0;}
+.img_04{ right:0; top:0;}
+.img_05{ right:0; top:210px;}
+.img_06{ left:0; top:420px;}
+.img_07{ left:202px; top:420px;}
+.img_08{ right:0; top:420px;}
+.img_09{ left:0; top:630px;}
+.img_10{ left:202px; top:630px;}
+.img_11{ left:202px; top:840px;}
+.img_12{ left:404px; top:630px;}
+.img_13{ left:404px; top:840px;}
+.img_14{ right:0; top:630px;}
+.img_15{ left:0; top:1050px;}
+.img_16{ left:202px; top:1050px;}
+.img_17{ left:404px; top:1050px;}
+.img_18{ left:606px; top:1050px;}
+.img_19{ right:0; top:1050px;}
+.img_20{ left:0; top:1260px;}
+.img_21{ left:404px; top:1260px;}
+.img_22{ left:404px; top:1470px;}
+.img_23{ left:606px; top:1470px;}
+.img_24{ right:0; top:1260px;}
+.img_25{ right:0; top:1470px;}
+.img_26{ left:0; top:1680px;}
+.img_27{ left:404px; top:1680px;}
+.img_28{ left:606px; top:1680px;}
+.img_29{ right:0; top:1680px;}
+.img_30{ left:0; top:1890px;}
+.img_31{ left:0; top:2100px;}
+.img_32{ left:202px; top:1890px;}
+.img_33{ left:202px; top:2100px;}
+.img_34{ left:404px; top:1890px;}
+.img_35{ right:0; top:1890px;}
+.img_36{ right:0; top:2100px;}
+.bi_con a:hover{border:2px solid #b9002a;padding:8px;}

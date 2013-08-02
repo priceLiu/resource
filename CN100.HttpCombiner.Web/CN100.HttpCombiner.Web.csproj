@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6392CD02-114A-438E-B0CB-379D30FEC48D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CN100.HttpCombiner.Web</RootNamespace>
+    <AssemblyName>CN100.HttpCombiner.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxMin">
+      <HintPath>..\DLL\AjaxMin.dll</HintPath>
+    </Reference>
+    <Reference Include="CN100.CDNCacheManagement.BLL">
+      <HintPath>..\DLL\CN100.CDNCacheManagement.BLL.dll</HintPath>
+    </Reference>
+    <Reference Include="CN100.CDNCacheManagement.Common">
+      <HintPath>..\DLL\CN100.CDNCacheManagement.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json.Net35">
+      <HintPath>..\DLL\Newtonsoft.Json.Net35.dll</HintPath>
+    </Reference>
+    <Reference Include="Public.Common">
+      <HintPath>..\DLL\Public.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\images\admin_cs.png" />
+    <Content Include="admin\images\logo_cheapest.jpg" />
+    <Content Include="admin\styles\admin.css" />
+    <Content Include="bigtaipei\images\tbuy_btn.gif" />
+    <Content Include="bigtaipei\styles\bigTaipei_index.css" />
+    <Content Include="bombsale\images\bs_banner_01.jpg" />
+    <Content Include="bombsale\images\bs_banner_02.jpg" />
+    <Content Include="bombsale\images\bs_sprite.png" />
+    <Content Include="bombsale\scripts\bombsale.js" />
+    <Content Include="bombsale\scripts\jquery.masonry.min.js" />
+    <Content Include="bombsale\styles\bombsale.css" />
+    <Content Include="bombsale\styles\bombsale.min.css" />
+    <Content Include="brandsale\images\bs_images.png" />
+    <Content Include="brandsale\images\bs_more_brand.png" />
+    <Content Include="brandsale\images\bs_online_brand.png" />
+    <Content Include="brandsale\images\bs_onsale.png" />
+    <Content Include="brandsale\scripts\brand_ajax1.js" />
+    <Content Include="brandsale\scripts\brand_ajax1.min.js" />
+    <Content Include="brandsale\styles\brandsale.css" />
+    <Content Include="brandsale\styles\brandsale.min.css" />
+    <Content Include="brand\images\bgi_images.png" />
+    <Content Include="brand\images\cn100_blackbg.jpg" />
+    <Content Include="brand\styles\brandsgather.min.css" />
+    <Content Include="CacheManager.aspx" />
+    <Content Include="CleanCDN.aspx" />
+    <Content Include="clothes\styles\clothes_index3.css" />
+    <Content Include="cn100map\images\map_cs.png" />
+    <Content Include="cn100map\styles\cn100map.css" />
+    <Content Include="CombinerConfig.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="CombinerTest.htm" />
+    <Content Include="Controls\ucControls.ascx" />
+    <Content Include="cps\images\cps_01.jpg" />
+    <Content Include="cps\images\cps_02.jpg" />
+    <Content Include="cps\images\cps_03.jpg" />
+    <Content Include="cps\images\cps_04.jpg" />
+    <Content Include="cps\images\loading1.gif" />
+    <Content Include="cps\images\love_bg.jpg" />
+    <Content Include="cps\scripts\blocksit.js" />
+    <Content Include="cps\scripts\blocksit.min.js" />
+    <Content Include="cps\scripts\cps_ui.js" />
+    <Content Include="cps\scripts\cps_ui.min.js" />
+    <Content Include="cps\styles\cn100\css.css" />
+    <Content Include="cps\styles\cn100\css.min.css" />
+    <Content Include="cps\styles\cn100\love_bg.gif" />
+    <Content Include="cps\styles\cn100\tbuy_btn.gif" />
+    <Content Include="do_not_delete\noc.gif" />
+    <Content Include="help\images\csssplit.png" />
+    <Content Include="help\images\hc_buttonbottom.png" />
+    <Content Include="help\images\hc_images.png" />
+    <Content Include="help\images\hc_leftbottom.png" />
+    <Content Include="help\images\hc_rightbottom.png" />
+    <Content Include="help\scripts\help.js" />
+    <Content Include="help\styles\helpcenter.css" />
+    <Content Include="home\images\cn100_cat_csssprite.gif" />
+    <Content Include="home\images\cn100_events.png" />
+    <Content Include="home\styles\index.css" />
+    <Content Include="home\styles\index.min.css" />
+    <Content Include="hotsale2\images\hs2_search_bg.png" />
+    <Content Include="hotsale2\images\hs2_sprite.png" />
+    <Content Include="hotsale2\scripts\hotsale2.js" />
+    <Content Include="hotsale2\styles\hotsale2.css" />
+    <Content Include="hotsale2\styles\hotsale2.min.css" />
+    <Content Include="job\styles\cn100_job.css" />
+    <Content Include="Login.aspx" />
+    <Content Include="member\images\btn_upfile_bg.png" />
+    <Content Include="member\images\cn100_zhaoshang_topbg.jpg" />
+    <Content Include="member\images\fb_cs.png" />
+    <Content Include="member\images\floatlink.png" />
+    <Content Include="member\images\imalogin\regi.gif" />
+    <Content Include="member\images\imalogin\regok.gif" />
+    <Content Include="member\images\mer_css.png" />
+    <Content Include="member\images\mer_csssprite.png" />
+    <Content Include="member\images\msg_bg.png" />
+    <Content Include="member\images\new_icon.gif" />
+    <Content Include="member\images\orob_csssprite.png" />
+    <Content Include="member\images\orob_msg_bg.png" />
+    <Content Include="member\images\orob_toggle_bg.gif" />
+    <Content Include="member\images\orob_usercsssprite.png" />
+    <Content Include="member\images\pdg_cs.png" />
+    <Content Include="member\images\regsuccess_cs.png" />
+    <Content Include="member\images\skin_cn100_btns.png" />
+    <Content Include="member\images\storecombining.png" />
+    <Content Include="member\images\stor_flow.png" />
+    <Content Include="member\images\ureg_csssprite.png" />
+    <Content Include="member\images\urights_csssprite.png" />
+    <Content Include="member\images\uuc_prite.png" />
+    <Content Include="member\images\u_common.png" />
+    <Content Include="member\images\u_sc_bg.png" />
+    <Content Include="member\styles\member.css" />
+    <Content Include="member\styles\member.min.css" />
+    <Content Include="ModifyCombinerConfig.aspx" />
+    <Content Include="Doc\readme.txt" />
+    <Content Include="pay\images\pay_bankIcon.jpg" />
+    <Content Include="pay\images\pay_cssSprite.jpg" />
+    <Content Include="pay\styles\pay.css" />
+    <Content Include="presale\images\noperbuy.png" />
+    <Content Include="presale\images\nopervote.png" />
+    <Content Include="presale\images\presale-map.png" />
+    <Content Include="presale\images\presale-shadow.png" />
+    <Content Include="presale\images\presale-tips.jpg" />
+    <Content Include="presale\images\presale-title.png" />
+    <Content Include="presale\images\presalecss.jpg" />
+    <Content Include="presale\images\presale_csssprite.png" />
+    <Content Include="presale\images\presale_loading.gif" />
+    <Content Include="presale\images\presale_nopic.png" />
+    <Content Include="presale\styles\presale.css" />
+    <Content Include="sale_zt\scripts\myJQ.js" />
+    <Content Include="sale_zt\styles\css.css" />
+    <Content Include="Scripts\artDialog415\artDialog.js" />
+    <Content Include="Scripts\artDialog415\basic\artDialog.basic.js" />
+    <Content Include="Scripts\artDialog415\basic\index.html" />
+    <Content Include="Scripts\artDialog415\basic\jquery.artDialog.basic.js" />
+    <Content Include="Scripts\artDialog415\basic\_doc\highlight\AUTHORS.en.txt" />
+    <Content Include="Scripts\artDialog415\basic\_doc\highlight\export.html" />
+    <Content Include="Scripts\artDialog415\basic\_doc\highlight\highlight.js" />
+    <Content Include="Scripts\artDialog415\basic\_doc\highlight\highlight.pack.js" />
+    <Content Include="Scripts\artDialog415\basic\_doc\highlight\languages\javascript.js" />
+    <Content Include="Scripts\artDialog415\basic\_doc\highlight\readme.eng.txt" />
+    <Content Include="Scripts\artDialog415\basic\_doc\highlight\styles\magula.css" />
+    <Content Include="Scripts\artDialog415\basic\_doc\highlight\test.html" />
+    <Content Include="Scripts\artDialog415\basic\_doc\images\opensource.gif" />
+    <Content Include="Scripts\artDialog415\basic\_doc\images\photo.jpg" />
+    <Content Include="Scripts\artDialog415\jquery.artDialog.js" />
+    <Content Include="Scripts\artDialog415\license.txt" />
+    <Content Include="Scripts\artDialog415\plugins\iframeTools.js" />
+    <Content Include="Scripts\artDialog415\skins\aero.css" />
+    <Content Include="Scripts\artDialog415\skins\aero\aero_s.png" />
+    <Content Include="Scripts\artDialog415\skins\aero\aero_s2.png" />
+    <Content Include="Scripts\artDialog415\skins\aero\ie6\aui_close.hover.png" />
+    <Content Include="Scripts\artDialog415\skins\aero\ie6\aui_close.png" />
+    <Content Include="Scripts\artDialog415\skins\aero\ie6\aui_e.png" />
+    <Content Include="Scripts\artDialog415\skins\aero\ie6\aui_n.png" />
+    <Content Include="Scripts\artDialog415\skins\aero\ie6\aui_ne.png" />
+    <Content Include="Scripts\artDialog415\skins\aero\ie6\aui_nw.png" />
+    <Content Include="Scripts\artDialog415\skins\aero\ie6\aui_s.png" />
+    <Content Include="Scripts\artDialog415\skins\aero\ie6\aui_se.png" />
+    <Content Include="Scripts\artDialog415\skins\aero\ie6\aui_sw.png" />
+    <Content Include="Scripts\artDialog415\skins\aero\ie6\aui_title_icon.png" />
+    <Content Include="Scripts\artDialog415\skins\aero\ie6\aui_w.png" />
+    <Content Include="Scripts\artDialog415\skins\black.css" />
+    <Content Include="Scripts\artDialog415\skins\black\bg.png" />
+    <Content Include="Scripts\artDialog415\skins\black\bg2.png" />
+    <Content Include="Scripts\artDialog415\skins\black\bg_css3.png" />
+    <Content Include="Scripts\artDialog415\skins\black\bg_css3_2.png" />
+    <Content Include="Scripts\artDialog415\skins\black\ie6\close.hover.png" />
+    <Content Include="Scripts\artDialog415\skins\black\ie6\close.png" />
+    <Content Include="Scripts\artDialog415\skins\black\ie6\e.png" />
+    <Content Include="Scripts\artDialog415\skins\black\ie6\n.png" />
+    <Content Include="Scripts\artDialog415\skins\black\ie6\ne.png" />
+    <Content Include="Scripts\artDialog415\skins\black\ie6\nw.png" />
+    <Content Include="Scripts\artDialog415\skins\black\ie6\s.png" />
+    <Content Include="Scripts\artDialog415\skins\black\ie6\se.png" />
+    <Content Include="Scripts\artDialog415\skins\black\ie6\sw.png" />
+    <Content Include="Scripts\artDialog415\skins\black\ie6\w.png" />
+    <Content Include="Scripts\artDialog415\skins\blue.css" />
+    <Content Include="Scripts\artDialog415\skins\blue\bg.png" />
+    <Content Include="Scripts\artDialog415\skins\blue\bg2.png" />
+    <Content Include="Scripts\artDialog415\skins\blue\bg_css3.png" />
+    <Content Include="Scripts\artDialog415\skins\blue\bg_css3_2.png" />
+    <Content Include="Scripts\artDialog415\skins\blue\ie6\close.hover.png" />
+    <Content Include="Scripts\artDialog415\skins\blue\ie6\close.png" />
+    <Content Include="Scripts\artDialog415\skins\blue\ie6\e.png" />
+    <Content Include="Scripts\artDialog415\skins\blue\ie6\n.png" />
+    <Content Include="Scripts\artDialog415\skins\blue\ie6\ne.png" />
+    <Content Include="Scripts\artDialog415\skins\blue\ie6\nw.png" />
+    <Content Include="Scripts\artDialog415\skins\blue\ie6\s.png" />
+    <Content Include="Scripts\artDialog415\skins\blue\ie6\se.png" />
+    <Content Include="Scripts\artDialog415\skins\blue\ie6\sw.png" />
+    <Content Include="Scripts\artDialog415\skins\blue\ie6\w.png" />
+    <Content Include="Scripts\artDialog415\skins\chrome.css" />
+    <Content Include="Scripts\artDialog415\skins\chrome\border.png" />
+    <Content Include="Scripts\artDialog415\skins\chrome\chrome_s.png" />
+    <Content Include="Scripts\artDialog415\skins\default.css" />
+    <Content Include="Scripts\artDialog415\skins\green.css" />
+    <Content Include="Scripts\artDialog415\skins\green\bg.png" />
+    <Content Include="Scripts\artDialog415\skins\green\bg2.png" />
+    <Content Include="Scripts\artDialog415\skins\green\bg_css3.png" />
+    <Content Include="Scripts\artDialog415\skins\green\bg_css3_2.png" />
+    <Content Include="Scripts\artDialog415\skins\green\color_bg.png" />
+    <Content Include="Scripts\artDialog415\skins\green\ie6\close.hover.png" />
+    <Content Include="Scripts\artDialog415\skins\green\ie6\close.png" />
+    <Content Include="Scripts\artDialog415\skins\green\ie6\e.png" />
+    <Content Include="Scripts\artDialog415\skins\green\ie6\n.png" />
+    <Content Include="Scripts\artDialog415\skins\green\ie6\ne.png" />
+    <Content Include="Scripts\artDialog415\skins\green\ie6\nw.png" />
+    <Content Include="Scripts\artDialog415\skins\green\ie6\s.png" />
+    <Content Include="Scripts\artDialog415\skins\green\ie6\se.png" />
+    <Content Include="Scripts\artDialog415\skins\green\ie6\sw.png" />
+    <Content Include="Scripts\artDialog415\skins\green\ie6\w.png" />
+    <Content Include="Scripts\artDialog415\skins\icons\error.png" />
+    <Content Include="Scripts\artDialog415\skins\icons\face-sad.png" />
+    <Content Include="Scripts\artDialog415\skins\icons\face-smile.png" />
+    <Content Include="Scripts\artDialog415\skins\icons\loading.gif" />
+    <Content Include="Scripts\artDialog415\skins\icons\question.png" />
+    <Content Include="Scripts\artDialog415\skins\icons\succeed.png" />
+    <Content Include="Scripts\artDialog415\skins\icons\warning.png" />
+    <Content Include="Scripts\artDialog415\skins\idialog.css" />
+    <Content Include="Scripts\artDialog415\skins\idialog\idialog_s.png" />
+    <Content Include="Scripts\artDialog415\skins\idialog\idialog_s2.png" />
+    <Content Include="Scripts\artDialog415\skins\idialog\ie6\aui_close.hover.png" />
+    <Content Include="Scripts\artDialog415\skins\idialog\ie6\aui_close.png" />
+    <Content Include="Scripts\artDialog415\skins\idialog\ie6\aui_e.png" />
+    <Content Include="Scripts\artDialog415\skins\idialog\ie6\aui_n.png" />
+    <Content Include="Scripts\artDialog415\skins\idialog\ie6\aui_ne.png" />
+    <Content Include="Scripts\artDialog415\skins\idialog\ie6\aui_nw.png" />
+    <Content Include="Scripts\artDialog415\skins\idialog\ie6\aui_s.png" />
+    <Content Include="Scripts\artDialog415\skins\idialog\ie6\aui_se.png" />
+    <Content Include="Scripts\artDialog415\skins\idialog\ie6\aui_sw.png" />
+    <Content Include="Scripts\artDialog415\skins\idialog\ie6\aui_w.png" />
+    <Content Include="Scripts\artDialog415\skins\opera.css" />
+    <Content Include="Scripts\artDialog415\skins\opera\ie6\aui_close.hover.png" />
+    <Content Include="Scripts\artDialog415\skins\opera\ie6\aui_close.png" />
+    <Content Include="Scripts\artDialog415\skins\opera\ie6\aui_e.png" />
+    <Content Include="Scripts\artDialog415\skins\opera\ie6\aui_n.png" />
+    <Content Include="Scripts\artDialog415\skins\opera\ie6\aui_ne.png" />
+    <Content Include="Scripts\artDialog415\skins\opera\ie6\aui_nw.png" />
+    <Content Include="Scripts\artDialog415\skins\opera\ie6\aui_s.png" />
+    <Content Include="Scripts\artDialog415\skins\opera\ie6\aui_se.png" />
+    <Content Include="Scripts\artDialog415\skins\opera\ie6\aui_sw.png" />
+    <Content Include="Scripts\artDialog415\skins\opera\ie6\aui_w.png" />
+    <Content Include="Scripts\artDialog415\skins\opera\s1.png" />
+    <Content Include="Scripts\artDialog415\skins\opera\s2.png" />
+    <Content Include="Scripts\artDialog415\skins\simple.css" />
+    <Content Include="Scripts\artDialog415\skins\twitter.css" />
+    <Content Include="Scripts\jquery-1.7.2.js" />
+    <Content Include="Scripts\jquery-1.7.2.min.js" />
+    <Content Include="ConfigManager.aspx" />
+    <Content Include="search\images\cn100ListSelectBg.png" />
+    <Content Include="search\images\cssspritelist.png" />
+    <Content Include="search\images\error.png" />
+    <Content Include="search\images\newIndex_CSS.png" />
+    <Content Include="search\images\nofound_bg.jpg" />
+    <Content Include="search\images\nosearch_bg.jpg" />
+    <Content Include="search\images\ssstar.gif" />
+    <Content Include="search\images\wzharrowdown.png" />
+    <Content Include="search\images\wzharrowup.png" />
+    <Content Include="search\images\wzhbtnxiangguan.jpg" />
+    <Content Include="search\images\wzhbtnxiangguanh.jpg" />
+    <Content Include="search\images\wzhfdj.jpg" />
+    <Content Include="search\styles\search.min.css" />
+    <Content Include="selectproduct\images\slogin_b.jpg" />
+    <Content Include="selectproduct\images\slogin_bg.jpg" />
+    <Content Include="selectproduct\images\slogin_t.jpg" />
+    <Content Include="selectproduct\images\spzt_bg.png" />
+    <Content Include="selectproduct\scripts\js.js" />
+    <Content Include="selectproduct\scripts\selectproduct.js" />
+    <Content Include="selectproduct\styles\selectproduct.css" />
+    <Content Include="shoes\images\probg.png" />
+    <Content Include="shoes\styles\bootsstyle.css" />
+    <Content Include="store\images\cyan_CSSbg.png" />
+    <Content Include="store\images\default_banner.jpg" />
+    <Content Include="store\images\emptyDefaultImg.jpg" />
+    <Content Include="store\images\errorDefaultImg.jpg" />
+    <Content Include="store\images\fullSendIco.png" />
+    <Content Include="store\images\grey.gif" />
+    <Content Include="store\images\loading.gif" />
+    <Content Include="store\images\loading1.gif" />
+    <Content Include="store\images\newyear\rp_190bg.jpg" />
+    <Content Include="store\images\newyear\rp_950bg.jpg" />
+    <Content Include="store\images\newyear\rp_btnbg.jpg" />
+    <Content Include="store\images\newyear\rp_btnbg1.jpg" />
+    <Content Include="store\images\pic_banner.jpg" />
+    <Content Include="store\images\promotionactivity.png" />
+    <Content Include="store\images\pro_right.jpg" />
+    <Content Include="store\images\pro_top.jpg" />
+    <Content Include="store\images\st_PageBack\button_65_22.gif" />
+    <Content Include="store\images\st_PageBack\button_65_22.png" />
+    <Content Include="store\images\st_PageBack\prolistico.png" />
+    <Content Include="store\images\st_PageBack\selectFileBtn.png" />
+    <Content Include="store\images\st_PageBack\selectFileInputBtn.png" />
+    <Content Include="store\images\st_PageManage\pm_CS.png" />
+    <Content Include="store\images\st_ProductList\composition_login.png" />
+    <Content Include="store\images\st_ProductList\pdg_msg_bg.png" />
+    <Content Include="store\images\st_ProductList\pd_btn.png" />
+    <Content Include="store\images\st_ProductList\pd_buyNow.jpg" />
+    <Content Include="store\images\st_ProductList\pd_buyNow.png" />
+    <Content Include="store\images\st_ProductList\pd_collection.jpg" />
+    <Content Include="store\images\st_ProductList\pd_count.png" />
+    <Content Include="store\images\st_ProductList\pd_fourstar.gif" />
+    <Content Include="store\images\st_ProductList\pd_priceonsale.png" />
+    <Content Include="store\images\st_ProductList\pd_pro_according.jpg" />
+    <Content Include="store\images\st_ProductList\pd_pro_list_a_selected.gif" />
+    <Content Include="store\images\st_ProductList\pd_pro_list_li_selected.gif" />
+    <Content Include="store\images\st_ProductList\pd_pro_selfinf.jpg" />
+    <Content Include="store\images\st_ProductList\pd_star.gif" />
+    <Content Include="store\images\st_ProductList\pd_type.png" />
+    <Content Include="store\images\st_ProductList\pd_up_down.png" />
+    <Content Include="store\images\st_ProductList\pic_banner.jpg" />
+    <Content Include="store\images\st_ProductList\prolistico.png" />
+    <Content Include="store\images\st_ProductList\sdPdt_pro_sel.png" />
+    <Content Include="store\images\st_ProductList\sd_banner_logo.jpg" />
+    <Content Include="store\images\st_ProductList\sd_banner_logo.png" />
+    <Content Include="store\images\st_ProductList\sd_banner_pic.png" />
+    <Content Include="store\images\st_ProductList\sd_headerBg.png" />
+    <Content Include="store\images\st_ProductList\sd_imgLogo.jpg" />
+    <Content Include="store\images\st_ProductList\sd_layerClose.png" />
+    <Content Include="store\images\st_ProductList\sd_layerImg.gif" />
+    <Content Include="store\images\st_ProductList\sd_pro_selected.png" />
+    <Content Include="store\images\st_ProductList\sd_share_png.png" />
+    <Content Include="store\images\st_ProductList\stg_headerBg.jpg" />
+    <Content Include="store\images\st_ProductList\st_btn_bg.png" />
+    <Content Include="store\images\st_ProductList\st_detailepage.png" />
+    <Content Include="store\images\st_ProductList\st_detailepage_layer.png" />
+    <Content Include="store\images\st_ProductList\st_icoALiWanWan.jpg" />
+    <Content Include="store\images\st_ProductList\st_icoMsn.jpg" />
+    <Content Include="store\images\st_ProductList\st_icons.png" />
+    <Content Include="store\images\st_ProductList\st_service.gif" />
+    <Content Include="store\images\st_ProductList\Uuc_prite.png" />
+    <Content Include="store\images\st_ProductList\XPButtonNoText_160x22.png" />
+    <Content Include="store\images\Uuc_prite.png" />
+    <Content Include="store\images\XPButtonNoText_160x22.png" />
+    <Content Include="store\styles\store.min.css" />
+    <Content Include="vip_zt\styles\vip.css" />
+    <Content Include="vip_zt\styles\vip.min.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="zhaoshang\images\floatlink.png" />
+    <Content Include="zhaoshang\images\mer_css.png" />
+    <Content Include="zhaoshang\images\mer_csssprite.png" />
+    <Content Include="zhaoshang\scripts\gototop.js" />
+    <Content Include="zhaoshang\styles\merchants.min.css" />
+    <Content Include="CDNManager.aspx" />
+    <Content Include="RemoveCDN.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CacheManagerHandler.ashx.cs">
+      <DependentUpon>CacheManagerHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CDNManagerHandler.ashx.cs">
+      <DependentUpon>CDNManagerHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CleanCDN.aspx.cs">
+      <DependentUpon>CleanCDN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CleanCDN.aspx.designer.cs">
+      <DependentUpon>CleanCDN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Code\ActionResult.cs" />
+    <Compile Include="CacheManager.aspx.cs">
+      <DependentUpon>CacheManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CacheManager.aspx.designer.cs">
+      <DependentUpon>CacheManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Code\CDNHelper.cs" />
+    <Compile Include="Code\ConfigHelper.cs" />
+    <Compile Include="Code\Constnatmanager.cs" />
+    <Compile Include="CombinerConfigManagerHandler.ashx.cs">
+      <DependentUpon>CombinerConfigManagerHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucControls.ascx.cs">
+      <DependentUpon>ucControls.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ucControls.ascx.designer.cs">
+      <DependentUpon>ucControls.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="HttpCombinerHandle.ashx.cs">
+      <DependentUpon>HttpCombinerHandle.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginHandler.ashx.cs">
+      <DependentUpon>LoginHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyCombinerConfig.aspx.cs">
+      <DependentUpon>ModifyCombinerConfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModifyCombinerConfig.aspx.designer.cs">
+      <DependentUpon>ModifyCombinerConfig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ConfigManager.aspx.cs">
+      <DependentUpon>ConfigManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfigManager.aspx.designer.cs">
+      <DependentUpon>ConfigManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CDNManager.aspx.cs">
+      <DependentUpon>CDNManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CDNManager.aspx.designer.cs">
+      <DependentUpon>CDNManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveCDN.aspx.cs">
+      <DependentUpon>RemoveCDN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RemoveCDN.aspx.designer.cs">
+      <DependentUpon>RemoveCDN.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HttpCombinerHandle.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CN100.HttpCombiner.Common\CN100.HttpCombiner.Common.csproj">
+      <Project>{4ACF2E06-1C54-49A1-9E49-4D8C5E70678F}</Project>
+      <Name>CN100.HttpCombiner.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CN100.HttpCombiner.Enum\CN100.HttpCombiner.Enum.csproj">
+      <Project>{4D42FD2D-7A1D-4A53-AF41-4266947889E8}</Project>
+      <Name>CN100.HttpCombiner.Enum</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CN100.HttpCombiner.Model\CN100.HttpCombiner.Model.csproj">
+      <Project>{0070AC60-4337-4164-8918-DA93A2671889}</Project>
+      <Name>CN100.HttpCombiner.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CN100.Public.Common\CN100.Public.Common.csproj">
+      <Project>{068DF936-1D29-4A27-962E-9A9A357B6EB4}</Project>
+      <Name>CN100.Public.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="admin\scripts\" />
+    <Folder Include="bigtaipei\scripts\" />
+    <Folder Include="brand\scripts\" />
+    <Folder Include="clothes\images\" />
+    <Folder Include="clothes\scripts\" />
+    <Folder Include="home\scripts\" />
+    <Folder Include="job\images\" />
+    <Folder Include="manager\" />
+    <Folder Include="sale_zt\images\" />
+    <Folder Include="search\scripts\" />
+    <Folder Include="shoes\scripts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CombinerConfigManagerHandler.ashx" />
+    <Content Include="CacheManagerHandler.ashx" />
+    <Content Include="CDNManagerHandler.ashx" />
+    <Content Include="LoginHandler.ashx" />
+    <None Include="Properties\PublishProfiles\resource1.pubxml" />
+    <None Include="Scripts\artDialog415\basic\_doc\highlight\LICENSE" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2811</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v11.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!--<Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+   To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

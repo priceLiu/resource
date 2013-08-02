@@ -1,0 +1,10 @@
+E:\svn release\Resource\Resource\trunk\CN100.Public.Common\bin\Debug\CN100.Public.Common.dll
+E:\svn release\Resource\Resource\trunk\CN100.Public.Common\bin\Debug\CN100.Public.Common.pdb
+E:\svn release\Resource\Resource\trunk\CN100.Public.Common\bin\Debug\AjaxMin.dll
+E:\svn release\Resource\Resource\trunk\CN100.Public.Common\bin\Debug\CN100.HttpCombiner.Enum.dll
+E:\svn release\Resource\Resource\trunk\CN100.Public.Common\bin\Debug\CN100.HttpCombiner.Model.dll
+E:\svn release\Resource\Resource\trunk\CN100.Public.Common\bin\Debug\CN100.HttpCombiner.Model.pdb
+E:\svn release\Resource\Resource\trunk\CN100.Public.Common\bin\Debug\CN100.HttpCombiner.Enum.pdb
+E:\svn release\Resource\Resource\trunk\CN100.Public.Common\obj\Debug\CN100.Public.Common.csprojResolveAssemblyReference.cache
+E:\svn release\Resource\Resource\trunk\CN100.Public.Common\obj\Debug\CN100.Public.Common.dll
+E:\svn release\Resource\Resource\trunk\CN100.Public.Common\obj\Debug\CN100.Public.Common.pdb
